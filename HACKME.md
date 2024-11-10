@@ -1,3 +1,5 @@
+TBD once theme is known
+
 The description of your challenge as seen by participants in CTFd. Try to make it feel within the theme
 of the event...
 

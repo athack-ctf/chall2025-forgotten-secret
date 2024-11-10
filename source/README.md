@@ -1,11 +1,17 @@
 # Building Your Challenge
 
-The purpose of this directory is to provide a reproducible way of rebuilding your challenge.
+The challenge requires both, special hardware and some manual work. Below you will find a step by step instruction on how to reproduce the challenge.
 
-- If your challenge can be programmatically rebuilt, treat this directory as the root of the source code.
+Required tools:
 
-- If your process is mainly manual, then it should be documented, along with all necessary files.
+1. A graphical tablet
+1. Wireshark installed
+1. Laptop that accepts 
 
-- If you have used a special tool (e.g., a file encoding tool) to build the challenge, it should be documented as well.
+Once the tools are ready follow the upcoming steps:
 
-- For any clarifications, consult us (Anis and Hugo).
+1. Unplug all connections from the laptop used to capture packets, otherwise the packets recorded will have many unecessary packets.
+1. Start capturing packets for ucbmon using wireshark
+1. Connect the tablet to the laptop and verify packets of identification and configuration are visible
+1. Open paint and draw the flag on the tablet
+1. Disconnect tablet then save the captured packets
