@@ -1,4 +1,4 @@
-# TBD
+# Forgotten Secret
 
 > Reconstruction of drawing by following a pen's movement indicated by usb packets to retrieve the flag.
 
